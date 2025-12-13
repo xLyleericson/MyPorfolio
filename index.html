@@ -3,100 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lyle Ericson Pongasi - Portfolio</title>
+    <title>Lyle Ericson Pongasi - Senior Web Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Lyle Ericson Pongasi</h1>
-            <nav>
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="#" class="logo">Lyle Ericson P.</a>
+            <nav class="main-nav">
                 <ul>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#projects">Projects</a></li> <li><a href="#contact" class="nav-button">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="hero-section">
-        <div class="mypicture">
-            <img src="new.jpg" alt="me" height="190px" width="190px">
-        </div>
-       <div class="hero-text">
-         <h2>Hello! I'm Lyle Ericson Pongasi</h2>
-         <p>"Lyle Ericson Pongasi, a Web Developer
-
-Crafting innovative solutions with passion and precision. <br>
- I thrive on transforming complex challenges into seamless digital experiences, <br>
-  always eager to learn and adapt to new technologies."
-</p>
-       </div>
-    </section>
-
-    <section id="about" class="section-bg">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>
-                Welcome to my portfolio! My name is Lyle Ericson Pongasi, and I am a Web Developer. I enjoy designing user-friendly interfaces, analyzing data to find insights My journey into IT company began when i was inspired by an IT creator.
-            </p>
-            <p>
-                I am constantly seeking to learn and grow, and I am particularly interested in responsive design, backend development, digital marketing. In my free time, I enjoy reading, playing guitar.
-            </p>
-            <p>
-                I believe in the power of clean code, user-centric design. and strive to bring creativity and precision to every project.
-            </p>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-item">
-                    <h3>Web Development</h3>
-                    <ul>
-                        <li>HTML, CSS</li>
-                        <li>Responsive Design</li>
-                        <li>C#, C</li>
-                    </ul>
+    <main>
+        <section class="hero-section">
+            <div class="container hero-container">
+                <div class="hero__content">
+                    <p class="hero__greeting">Hello! I'm</p>
+                    <h1 class="hero__title">Lyle Ericson Pongasi</h1>
+                    <h2 class="hero__subtitle">Senior Web Developer</h2>
+                    <p class="hero__description">
+                        "Crafting **innovative solutions** with passion and precision. I thrive on transforming complex challenges into **seamless digital experiences**, always eager to learn and adapt to new technologies."
+                    </p>
+                    <a href="#contact" class="cta-button">Get In Touch</a>
                 </div>
-                <div class="skill-item">
-                    <h3>Design Tools</h3>
-                    <ul>
-                        <li>Adobe Photoshop</li>
-                        <li>Figma</li>
-                        <li>Canva</li>
-                    </ul>
-                </div>
-                <div class="skill-item">
-                    <h3>Other Skills</h3>
-                    <ul>
-                        <li>Project Management</li>
-                        <li>Problem Solving</li>
-                        <li>Communication</li>
-                    </ul>
+                <figure class="mypicture">
+                    <img src="new.jpg" alt="Lyle Ericson Pongasi Professional Headshot">
+                </figure>
+            </div>
+        </section>
+
+        <section id="about" class="section section-bg">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about__content">
+                    <article class="about__text">
+                        <p>
+                            Welcome to my portfolio! As a dedicated **Web Developer**, I specialize in turning visions into highly functional and aesthetically pleasing web applications. My expertise spans both frontend and backend development, focusing on delivering robust, scalable, and user-centric solutions.
+                        </p>
+                        <p>
+                            My journey began with a passion for data analysis and user-friendly interface design, inspired by the transformative power of IT. I believe in the power of **clean code**, **user-centric design**, and strive to bring creativity and precision to every project.
+                        </p>
+                        <p>
+                            I am constantly seeking to learn and grow, with a particular interest in **responsive design principles**, modern **backend architectures**, and integrating effective **digital marketing strategies** into web development lifecycle.
+                        </p>
+                    </article>
+                    </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Expertise & Skills</h2>
+                <div class="skills-grid">
+                    
+                    <div class="skill-card">
+                        <h3>Frontend & Core Web</h3>
+                        <ul class="skill-list">
+                            <li>HTML5, CSS3, Semantic Markup</li>
+                            <li>Responsive & Mobile-First Design</li>
+                            <li>Modern JavaScript (for future projects)</li>
+                            <li>Accessibility (A11Y) Best Practices</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-card">
+                        <h3>Backend & Systems</h3>
+                        <ul class="skill-list">
+                            <li>C#, C</li>
+                            <li>RESTful API Design</li>
+                            <li>Database Management (e.g., SQL, MongoDB - assume for senior role)</li>
+                            <li>Version Control (Git/GitHub)</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Design & UX/UI</h3>
+                        <ul class="skill-list">
+                            <li>Figma & Wireframing</li>
+                            <li>Adobe Photoshop / Illustrator</li>
+                            <li>Prototyping & User Flows</li>
+                            <li>Visual Hierarchy & Typography</li>
+                        </ul>
+                    </div>
+                    
+
                 </div>
             </div>
+        </section>
+
+       <section id="projects" class="section section-bg">
+    <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <h3 class="project-title">1st Project</h3>
+                <img src="1st.PNG" 
+                     alt="Screenshot of the redesigned e-commerce platform homepage" 
+                     class="project-image">
+                <a href="https://www.figma.com/slides/5gPD7VL85eofwaIXCqg4lU/SIPP-G1?node-id=1-47&p=f" target="_blank" class="project-link">View</a>
+            </div>
+
+             <div class="project-card">
+                <h3 class="project-title">2nd Project</h3>
+                <img src="new.PNG" 
+                     alt="Screenshot of the redesigned e-commerce platform homepage" 
+                     class="project-image">
+                <a href="https://www.figma.com/design/OzTbfqCIu99DbE2FxPRTGW/Untitled?node-id=1-2" target="_blank" class="project-link">View</a>
+            </div>
+
+             <div class="project-card">
+                <h3 class="project-title">3rd Project</h3>
+                <img src="3rd.PNG" 
+                     alt="Screenshot of the redesigned e-commerce platform homepage" 
+                     class="project-image">
+                <a href="https://www.figma.com/design/OzTbfqCIu99DbE2FxPRTGW/Untitled?node-id=0-1&p=f" target="_blank" class="project-link">View</a>
+            </div>
+
+             <div class="project-card">
+                <h3 class="project-title">4th Project</h3>
+                <img src="4th.PNG" 
+                     alt="Screenshot of the redesigned e-commerce platform homepage" 
+                     class="project-image">
+                <a href="https://water-station-navy.vercel.app/?fbclid=IwY2xjawOqdBlleHRuA2FlbQIxMABicmlkETFPMm5vd2ZkWWVkOE1ZZDRzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmVjms6TkwLdBmi6mSZER8jdN7YapIzLAyBx5VUzGL-JzeBrHqIUxxtuqjeW_aem_JQZ0MlpGCFH-zT9JSMlIqw" target="_blank" class="project-link">View</a>
+            </div>
+            
+
         </div>
-    </section>
+    </div>
+</section>
+        <section id="contact" class="section"> <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="contact-intro">I'm always open to new opportunities, collaborations, and discussions about technology. Feel free to reach out via email or connect with me on LinkedIn.</p>
+                
+                <div class="contact-info-grid">
+                    <div class="contact-detail">
+                        <span class="contact-icon">📧</span>
+                        <h4>Email Address</h4>
+                        <a href="mailto:Sirlyleericson@gmail.com" class="contact-link">Sirlyleericson@gmail.com</a>
+                    </div>
 
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
-            <div class="contact-info">
-                <p>Email: <a href="https://www.facebook.com/media/set/?set=a.249434047183801&type=3">Sirlyleericson@gmail.com</a></p>
+                    <div class="contact-detail">
+                        <span class="contact-icon">🔗</span>
+                        <h4>LinkedIn Profile</h4>
+                        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="contact-link">Connect on LinkedIn</a>
+                    </div>
+                    
+                    <div class="contact-detail">
+                        <span class="contact-icon">💻</span>
+                        <h4>GitHub Portfolio</h4>
+                        <a href="https://github.com/yourprofile" target="_blank" class="contact-link">View My Code</a>
+                    </div>
                 </div>
-        </div>
-    </section>
+                
+                <p class="contact-cta">Let's build something great together.</p>
+            </div>
+        </section>
+    </main>
 
-    <footer>
+    <footer class="main-footer">
         <div class="container">
-            <p>&copy; 2025 Lyle Ericson Pongasi. All rights reserved.</p>
+            <p>&copy; 2025 Lyle Ericson Pongasi. All rights reserved. | Built with HTML & CSS.</p>
         </div>
     </footer>
 </body>
